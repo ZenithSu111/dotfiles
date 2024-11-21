@@ -61,7 +61,7 @@ return {
                 end, {"i", "s"})
             }),
             sources = cmp.config.sources({
-                {name = "nvim_lsp"}, {name = "luasnip"}, {name = "buffer"}
+                {name = "nvim_lsp"}, {name = "luasnip"}, {name = "buffer"}, {name = "codeium"}
             }),
             formatting = {
                 format = lspkind.cmp_format({

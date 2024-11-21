@@ -26,8 +26,8 @@ return {
         }
       end,
       keys = {
-        { '<leader>ef', ':Neotree toggle float<CR>', silent = true, desc = 'Float File Explorer' },
-        { '<leader>e', ':Neotree toggle position=left<CR>', silent = true, desc = 'Left File Explorer' },
+        { '<leader>nf', ':Neotree toggle float<CR>', silent = true, desc = 'Float File Explorer' },
+        { '<leader>ne', ':Neotree toggle position=left<CR>', silent = true, desc = 'Left File Explorer' },
         { '<leader>ngs', ':Neotree float git_status<CR>', silent = true, desc = 'Neotree Open Git Status Window' },
       },
     },
@@ -145,9 +145,9 @@ return {
           },
           ['<2-LeftMouse>'] = 'open',
           ['<cr>'] = 'open',
-          ['<esc>'] = 'cancel', -- close preview or floating neo-tree window
+          ['<Q>'] = 'cancel', -- close preview or floating neo-tree window
           ['P'] = { 'toggle_preview', config = { use_float = true } },
-          ['l'] = 'open',
+          -- ['l'] = 'open',
           ['S'] = 'open_split',
           ['s'] = 'open_vsplit',
           -- ["S"] = "split_with_window_picker",
