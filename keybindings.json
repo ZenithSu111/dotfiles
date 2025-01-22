@@ -128,6 +128,18 @@
 		"command": "list.focusUp",
 		"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
 	},
+	  // copy file
+	  {
+	    "key": "y",
+	    "command": "filesExplorer.copy",
+	    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+	  },
+	  // paste file
+	  {
+	    "key": "p",
+	    "command": "filesExplorer.paste",
+	    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+	  },
 	// -----file explorer end------
 	// -----suggest item start------
 	{ // move down at auto completion prompt
