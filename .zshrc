@@ -114,3 +114,17 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(starship init zsh)"
+export PATH=$PATH:$HOME/vcpkg/installed/x64-linux/tools/drogon
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$PATH:/opt/nvim/"
+export PATH=$PATH:/usr/local/go/bin
+export WIN32YANK_PATH=~/bin/win32yank.exe
+
+export VCPKG_ROOT=/home/zenith/vcpkg/
+#cmake-vcpkg
+export CMAKE_TOOLCHAIN_FILE=$HOME/vcpkg/scripts/buildsystems/vcpkg.cmake
+export CMAKE_PREFIX_PATH=$HOME/vcpkg/installed/x64-linux
