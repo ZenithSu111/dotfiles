@@ -5,7 +5,7 @@ echo"update apt ..."
 sudo apt update && sudo apt upgrade -y
 
 echo"Dowloading neccesary tools"
-sudo apt install -y git zsh curl wget build-essentail python3 python3-pip python3-venv
+sudo apt install -y git zsh curl wget build-essential python3 python3-pip python3-venv
 
 
 echo"set zsh as default"
