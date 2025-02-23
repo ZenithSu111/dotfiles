@@ -57,7 +57,7 @@ return {
         formatters = {
             -- 自訂 clang-format 參數
             clang_format = {
-                prepend_args = { "--style={IndentWidth: 4}" }, -- 設置縮排寬度為 4
+                prepend_args = { "--style={IndentWidth: 2}" }, -- 設置縮排寬度為 4
             },
 
             -- 自訂 prettier 參數（如果需要）
