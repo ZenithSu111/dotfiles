@@ -128,3 +128,7 @@ export VCPKG_ROOT=/home/zenith/vcpkg/
 #cmake-vcpkg
 export CMAKE_TOOLCHAIN_FILE=$HOME/vcpkg/scripts/buildsystems/vcpkg.cmake
 export CMAKE_PREFIX_PATH=$HOME/vcpkg/installed/x64-linux
+
+[[ -f /etc/profile ]] && source /etc/profile
+
+eval "$(starship init zsh)"
