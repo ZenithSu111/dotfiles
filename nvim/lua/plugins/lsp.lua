@@ -175,6 +175,10 @@ return {
             gopls = {},
             pyright = {},
             prettier = {},
+
+            emmet_language_server = {
+                filetypes = { "html", "css", "scss", "vue" },
+            },
             -- rust_analyzer = {},
 
             volar = {

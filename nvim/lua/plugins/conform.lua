@@ -49,6 +49,7 @@ return {
             javascriptreact = { "prettier" },
             typescriptreact = { "prettier" },
             vue = { "prettier" },
+            html = { "prettier" },
 
             -- Python 示例（註解掉的部分）
             -- python = { "isort", "black" }, -- 先執行 isort，再執行 black
