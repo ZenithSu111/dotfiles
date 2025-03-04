@@ -1,7 +1,7 @@
 -- 確保 Neovim 版本 >= 0.8
 if vim.fn.has("nvim-0.8") == 0 then
-    vim.api.nvim_err_writeln("low neovim version, update to 0.8+ version. ")
-    return
+  vim.api.nvim_err_writeln("low neovim version, update to 0.8+ version. ")
+  return
 end
 
 local opt = vim.opt
@@ -18,8 +18,8 @@ opt.sidescrolloff = 8     -- 水平滑動時保持 8 列距離
 opt.showmode = false      -- 隱藏 "-- INSERT --" 等模式提示（使用 statusline 插件代替）
 
 -- 縮排與縮排顯示
-opt.tabstop = 2        -- 設置 Tab 為 4 個空格
-opt.shiftwidth = 2     -- 設置自動縮排為 4 個空格
+opt.tabstop = 4        -- 設置 Tab 為 4 個空格
+opt.shiftwidth = 4     -- 設置自動縮排為 4 個空格
 opt.expandtab = true   -- 將 Tab 轉換為空格
 opt.smartindent = true -- 啟用智能縮排
 opt.autoindent = true  -- 啟用自動縮排

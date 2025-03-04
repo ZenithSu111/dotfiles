@@ -2,7 +2,7 @@
 local cores_modules = {
 	"keymaps",
 	"options",
-	--    "wsl"
+	"wsl",
 }
 for _, module in ipairs(cores_modules) do
 	local ok, err = pcall(require, "cores." .. module)
