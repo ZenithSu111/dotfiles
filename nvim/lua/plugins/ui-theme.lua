@@ -119,6 +119,13 @@ return {
         config = function()
             vim.keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
             require("oil").setup({
+                defalut_file_expolorer = true, --預設為Oil啟動
+                columns = {
+                    "icon",
+                    -- "permissions",
+                    -- "size",
+                    -- "mtime",
+                },
                 keymaps = {
                     ["g?"] = { "actions.show_help", mode = "n" },
                     ["<CR>"] = "actions.select",
@@ -139,7 +146,6 @@ return {
                 },
                 view_options = {
                     show_hidden = true, --顯示隱藏文件
-                    conceal_hidden = true, --讓隱藏文件變淡
                 },
             })
         end,
