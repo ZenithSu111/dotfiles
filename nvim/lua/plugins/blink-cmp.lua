@@ -24,15 +24,16 @@ return {
         --
         -- See the full "keymap" documentation for information on defining your own keymap.
         keymap = {
+            preset = "enter",
             ["<D-c>"] = { "show" },
             ["<S-CR>"] = { "hide" },
-            ["<CR>"] = { "select_and_accept", "fallback" },
-            ["<Tab>"] = { "select_next", "fallback" },
-            ["<S-Tab>"] = { "select_prev", "fallback" },
+            ["<CR>"] = { "accept", "fallback" },
+            ["<Tab>"] = { "select_next", "snippet_forward", "fallback" },
+            ["<S-Tab>"] = { "select_prev", "snippet_backward", "fallback" },
             ["<Down>"] = { "select_next", "fallback" },
             ["<Up>"] = { "select_prev", "fallback" },
-            ["<PageDown>"] = { "scroll_documentation_down" },
-            ["<PageUp>"] = { "scroll_documentation_up" },
+            ["<C-b>"] = { "scroll_documentation_down" },
+            ["<C-f>"] = { "scroll_documentation_up" },
         },
 
         appearance = {
