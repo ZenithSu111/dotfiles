@@ -2,3 +2,14 @@
 program = "/bin/zsh"
 args = ["--login"]
 
+[window]
+opacity=0.7
+
+
+[font]
+normal.family = "IosevkaNerdFont"
+bold.family = "IosevkaNerdFont"
+italic.family = "IosevkaNerdFont"
+bold_italic.family = "IosevkaNerdFont"
+
+size = 16.0
