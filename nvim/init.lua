@@ -45,5 +45,5 @@ vim.cmd("colorscheme catppuccin")
 -- vim.lsp.enable({"clangd","rust-analyzer","lua-language-server"})
 --lsp end------------------------------------------------------------------------------------------------------------
 --virtual text-------------------------------------------------------------------------------------------------------
-vim.diagnostic.config({ virtual_text = true })
+vim.diagnostic.config({ virtual_lines = true })
 --virtual text end---------------------------------------------------------------------------------------------------
