@@ -2,7 +2,7 @@
 local cores_modules = {
     "keymaps",
     "options",
-    "wsl",
+    -- "wsl",
 }
 for _, module in ipairs(cores_modules) do
     local ok, err = pcall(require, "cores." .. module)
@@ -41,3 +41,9 @@ require("lazy").setup({
 -- vim.cmd("colorscheme tokyonight-storm")
 vim.cmd("colorscheme catppuccin")
 --colorscheme end----------------------------------------------------------------------------------------------------
+--lsp----------------------------------------------------------------------------------------------------------------
+-- vim.lsp.enable({"clangd","rust-analyzer","lua-language-server"})
+--lsp end------------------------------------------------------------------------------------------------------------
+--virtual text-------------------------------------------------------------------------------------------------------
+vim.diagnostic.config({ virtual_text = true })
+--virtual text end---------------------------------------------------------------------------------------------------
