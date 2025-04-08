@@ -7,9 +7,9 @@ opacity=0.7
 
 
 [font]
-normal.family = "IosevkaNerdFont"
-bold.family = "IosevkaNerdFont"
-italic.family = "IosevkaNerdFont"
-bold_italic.family = "IosevkaNerdFont"
+normal.family = "IosevkaTerm NerdFont"
+bold.family = "IosevkaTerm NerdFont"
+italic.family = "IosevkaTerm NerdFont"
+bold_italic.family = "IosevkaTerm NerdFont"
 
 size = 16.0
