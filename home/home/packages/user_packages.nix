@@ -5,6 +5,9 @@
   nixgl,
   ...
 }: {
+  nixGL.packages = import nixgl {inherit pkgs;};
+  nixGL.defaultWrapper = "nvidia"; # AMD mesa
+  nixGL.installScripts = ["nvidia"];
   home.packages = with pkgs; [
     #app
     discord
