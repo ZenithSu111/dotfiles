@@ -108,6 +108,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 alias ch="chezmoi"
+alias switch="home-manager switch --flake .#zenith --impure"
 alias lg="lazygit"
 alias vi="nvim"
 

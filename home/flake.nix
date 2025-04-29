@@ -28,7 +28,7 @@
       inherit pkgs;
 
       modules = [
-        ./home.nix
+        ./home
       ];
       extraSpecialArgs = {
         nixgl = nixgl;
