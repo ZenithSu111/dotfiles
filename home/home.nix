@@ -96,11 +96,6 @@
   programs.home-manager.enable = true;
 
 
-  programs.neovim = {
-    enable = true;
-    viAlias = true;
-    vimAlias = true;
-  };
 
   programs.direnv = {
     enable = true;
