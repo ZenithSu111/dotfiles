@@ -11,12 +11,15 @@
   home.packages = with pkgs; [
     #app
     discord
-    anki
+    (config.lib.nixGL.wrap anki)
     spotify
     obsidian
     brave
     (config.lib.nixGL.wrap rustdesk-flutter)
     (config.lib.nixGL.wrap alacritty)
+
+    #virual
+    virt-manager
 
     #coding tools
     postman
