@@ -1,0 +1,26 @@
+
+[window]
+opacity = 1.0
+decorations = "full"
+
+[window.padding]
+x = 8
+y = 8
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "Cascadia Code"
+style = "Regular"
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["--login"]
+
+[general]
+#alacritty.toml
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml",
+]
+
