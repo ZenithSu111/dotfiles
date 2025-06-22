@@ -1,17 +1,17 @@
 {pkgs, ...}: {
   home.packages = with pkgs;[
     #system tool
-    pavucontrol
+    #pavucontrol
     #flameshot
-    xfce.thunar
+    #xfce.thunar
     #Cli
-    rofi
+    #rofi
     #yazi
     #ripgrep
     #fzf
     #lazygit
 
-    xclip #clipboard x11
+    #xclip #clipboard x11
     #wl-clipboard #clipboard wayland
     #tree
     git
@@ -23,7 +23,7 @@
     #zip
 
     # sniipet
-    flameshot
+    #flameshot
 
 
     #font

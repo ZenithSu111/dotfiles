@@ -10,24 +10,24 @@
   nixGL.installScripts = ["nvidia"];
   home.packages = with pkgs; [
     #app
-    discord
-    (config.lib.nixGL.wrap anki)
-    spotify
-    obsidian
+    #discord
+    #(config.lib.nixGL.wrap anki)
+    #spotify
+    #obsidian
     vivaldi
-    (config.lib.nixGL.wrap rustdesk-flutter)
-    (config.lib.nixGL.wrap alacritty)
-    (config.lib.nixGL.wrap wezterm)
+    #(config.lib.nixGL.wrap rustdesk-flutter)
+    #(config.lib.nixGL.wrap alacritty)
+    #(config.lib.nixGL.wrap wezterm)
 
     #virual
     #virt-manager
 
     #coding tools
     neovim
-    postman
+    #postman
     #(config.lib.nixGL.wrap zed-editor)
-    jetbrains.idea-community-bin
-    dbeaver-bin
+    #jetbrains.idea-community-bin
+    #dbeaver-bin
   ];
   programs.direnv = {
     enable = true;
