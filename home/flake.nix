@@ -22,7 +22,7 @@
       inherit system;
       config.allowUnfree = true;
     };
-    username = "zenith";
+    username = "zenthus";
   in {
     homeConfigurations.${username} = home-manager.lib.homeManagerConfiguration {
       inherit pkgs;

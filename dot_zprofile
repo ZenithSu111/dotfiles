@@ -1,4 +1,0 @@
-# $DISPLAY確認還沒進入圖形界面       tty 指定為tty1
-if uwsm check may-start && uwsm select; then
-	exec uwsm start Hyprland
-fi
