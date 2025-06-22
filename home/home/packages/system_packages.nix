@@ -2,27 +2,32 @@
   home.packages = with pkgs;[
     #system tool
     pavucontrol
-    flameshot
+    #flameshot
     xfce.thunar
     #Cli
     rofi
-    yazi
-    ripgrep
-    fzf
-    lazygit
+    #yazi
+    #ripgrep
+    #fzf
+    #lazygit
 
-    #xclip #clipboard x11
-    wl-clipboard #clipboard wayland
-    tree
+    xclip #clipboard x11
+    #wl-clipboard #clipboard wayland
+    #tree
     git
-    htop
-    openssh
+    #htop
+    #openssh
     #unpackage
     unzip
-    wget
-    zip
+    #wget
+    #zip
+
+    # sniipet
+    flameshot
+
+
     #font
-    cascadia-code
+    nerd-fonts.iosevka-term
   ];
   i18n.inputMethod = {
     enabled = "fcitx5";
