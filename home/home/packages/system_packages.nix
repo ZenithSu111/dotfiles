@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs;[
     #system tool
-    #pavucontrol
+    pavucontrol #control audio device
     #flameshot
     #xfce.thunar
     #Cli
@@ -11,8 +11,11 @@
     #fzf
     #lazygit
 
+    #appluncher
+    fuzzel
+
     #xclip #clipboard x11
-    #wl-clipboard #clipboard wayland
+    wl-clipboard #clipboard wayland
     #tree
     git
     #htop
