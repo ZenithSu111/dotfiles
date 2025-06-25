@@ -13,7 +13,7 @@
     #discord
     #(config.lib.nixGL.wrap anki)
     #spotify
-    #obsidian
+    obsidian
     vivaldi
     #(config.lib.nixGL.wrap rustdesk-flutter)
     #(config.lib.nixGL.wrap alacritty)
