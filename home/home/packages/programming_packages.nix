@@ -3,7 +3,7 @@
   config,
   lib,
   pkgs,
-  nixgl,
+  #nixgl,
   ...
 }: {
   home.packages = with pkgs; [
@@ -12,10 +12,10 @@
 
 
     #Web
-    postman
+    #postman
     #(config.lib.nixGL.wrap zed-editor)
-    jetbrains.idea-community
-    jetbrains.webstorm
-    dbeaver-bin
+    #jetbrains.idea-community
+    #jetbrains.webstorm
+    #dbeaver-bin
   ];
 }

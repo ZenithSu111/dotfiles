@@ -1,9 +1,10 @@
 {pkgs, ...}: {
   home.packages = with pkgs;[
     #system tool
-    pavucontrol #control audio device
+    #pavucontrol #control audio device
     #flameshot
     #xfce.thunar
+
     #Cli
     #rofi
     #yazi
@@ -12,12 +13,12 @@
     #lazygit
 
     #appluncher
-    fuzzel
+    #fuzzel
 
 
 
     #xclip #clipboard x11
-    wl-clipboard #clipboard wayland
+    #wl-clipboard #clipboard wayland
     #tree
     git
     #htop
@@ -27,18 +28,17 @@
     #wget
     #zip
 
-    # sniipet
+    # screen shot
     #flameshot
 
-
     #font
-    nerd-fonts.iosevka-term
+    #nerd-fonts.iosevka-term
   ];
-  i18n.inputMethod = {
-    enabled = "fcitx5";
-    fcitx5.addons = with pkgs; [
-      fcitx5-chewing
-      fcitx5-gtk
-    ];
-  };
+  #i18n.inputMethod = {
+    #enabled = "fcitx5";
+    #fcitx5.addons = with pkgs; [
+      #fcitx5-chewing
+      #fcitx5-gtk
+    #];
+  #};
 }
