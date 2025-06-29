@@ -14,6 +14,8 @@
     #appluncher
     fuzzel
 
+
+
     #xclip #clipboard x11
     wl-clipboard #clipboard wayland
     #tree
