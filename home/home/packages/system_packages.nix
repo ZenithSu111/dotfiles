@@ -12,7 +12,7 @@
     #lazygit
 
     #appluncher
-    fuzzel
+    rofi-wayland
 
 
 
