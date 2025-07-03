@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# 使用 Rofi 顯示選單
+chosen=$(echo -e "󰍃  鎖定螢幕\n󰍂  登出 Hyprland\n󰜉  重啟\n󰐥  關機" | rofi -dmenu -i -p "系統選單")
+
+case "$chosen" in
+  *鎖定螢幕*)
+    # 根據你的鎖屏工具修改，例如 swaylock
+    swaylock
+    ;;
+  *登出*)
+    hyprctl dispatch exit
+    ;;
+  *重啟*)
+    systemctl reboot
+    ;;
+  *關機*)
+    systemctl poweroff
+    ;;
+  *)
+    ;;
+esac
+
