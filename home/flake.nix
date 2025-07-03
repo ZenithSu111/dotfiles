@@ -8,13 +8,13 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nixgl.url = "github:nix-community/nixGL";
+    #nixgl.url = "github:nix-community/nixGL";
   };
 
   outputs = {
     nixpkgs,
     home-manager,
-    nixgl,
+    #nixgl,
     ...
   } @ inputs: let
     system = "x86_64-linux";
@@ -31,7 +31,7 @@
         ./home
       ];
       extraSpecialArgs = {
-        nixgl = nixgl;
+        #nixgl = nixgl;
         inherit
           pkgs
           username

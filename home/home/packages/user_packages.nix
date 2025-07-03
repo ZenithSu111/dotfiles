@@ -2,19 +2,19 @@
   config,
   lib,
   pkgs,
-  nixgl,
+  #nixgl,
   ...
 }: {
-  nixGL.packages = import nixgl {inherit pkgs;};
-  nixGL.defaultWrapper = "nvidia"; # AMD mesa
-  nixGL.installScripts = ["nvidia"];
+  #nixGL.packages = import nixgl {inherit pkgs;};
+  #nixGL.defaultWrapper = "nvidia"; # AMD mesa
+  #nixGL.installScripts = ["nvidia"];
   home.packages = with pkgs; [
     #app
     #discord
     #(config.lib.nixGL.wrap anki)
     #spotify
     obsidian
-    vivaldi
+    google-chrome
     #(config.lib.nixGL.wrap rustdesk-flutter)
     #(config.lib.nixGL.wrap alacritty)
     #(config.lib.nixGL.wrap wezterm)

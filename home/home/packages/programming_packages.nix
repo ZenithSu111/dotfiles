@@ -9,13 +9,16 @@
   home.packages = with pkgs; [
     #coding tools
     neovim
+    vscode
 
 
     #Web
     postman
     #(config.lib.nixGL.wrap zed-editor)
-    jetbrains.idea-community
-    jetbrains.webstorm
+    jetbrains.idea-community-bin
     dbeaver-bin
+
+    #languages
+    go
   ];
 }
