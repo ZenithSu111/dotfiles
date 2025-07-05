@@ -2,8 +2,7 @@
   home.packages = with pkgs;[
     #system tool
     pavucontrol #control audio device
-    #flameshot
-    #xfce.thunar
+    nautilus #file manager
     #Cli
     #rofi
     #yazi
@@ -18,7 +17,7 @@
 
     #xclip #clipboard x11
     wl-clipboard #clipboard wayland
-    #tree
+    tree
     git
     #htop
     #openssh
@@ -28,7 +27,10 @@
     #zip
 
     # sniipet
-    #flameshot
+    grim
+    slurp
+    swappy
+    libnotify #for system notify library function
 
 
     #font

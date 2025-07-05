@@ -7,10 +7,9 @@
   ...
 }: {
   home.packages = with pkgs; [
-    #coding tools
+    #coding editors
     neovim
     vscode
-
 
     #Web
     postman
@@ -18,7 +17,5 @@
     jetbrains.idea-community-bin
     dbeaver-bin
 
-    #languages
-    go
   ];
 }

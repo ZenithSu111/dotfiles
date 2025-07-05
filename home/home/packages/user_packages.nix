@@ -21,13 +21,6 @@
 
     #virual
     #virt-manager
-
-    #coding tools
-    neovim
-    #postman
-    #(config.lib.nixGL.wrap zed-editor)
-    #jetbrains.idea-community-bin
-    #dbeaver-bin
   ];
   programs.direnv = {
     enable = true;

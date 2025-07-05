@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # 使用 Rofi 顯示選單
-chosen=$(echo -e "󰍃  鎖定螢幕\n󰍂  登出 Hyprland\n󰜉  重啟\n󰐥  關機" | rofi -dmenu -i -p "系統選單")
+chosen=$(echo -e "󰍃  鎖定螢幕\n󰍂  登出 Hyprland\n󰜉  重啟\n󰐥  關機" | rofi -dmenu -theme themes/power-menu -i -p " "
+)
 
 case "$chosen" in
   *鎖定螢幕*)
