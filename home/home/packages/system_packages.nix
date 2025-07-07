@@ -3,7 +3,10 @@
     #system tool
     pavucontrol #control audio device
     nautilus #file manager
+
+
     #Cli
+    neofetch
     #rofi
     #yazi
     #ripgrep
