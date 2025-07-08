@@ -7,6 +7,7 @@
 
     #Cli
     neofetch
+    btop-cuda # resources monitor
     #rofi
     #yazi
     #ripgrep
@@ -27,7 +28,7 @@
     #unpackage
     unzip
     #wget
-    #zip
+    zip
 
     # sniipet
     grim
@@ -41,6 +42,7 @@
   ];
   i18n.inputMethod = {
     enabled = "fcitx5";
+    fcitx5.waylandFrontend = true;
     fcitx5.addons = with pkgs; [
       fcitx5-chewing
       fcitx5-gtk
