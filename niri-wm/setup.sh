@@ -3,6 +3,7 @@
 # Remove old configs safely
 rm -rf "$HOME/.config/niri"
 rm -rf "$HOME/.config/systemd"
+rm -rf "$HOME/.config/alacritty"
 rm -rf "$HOME/.config/waybar"
 rm -rf "$HOME/.config/xdg-desktop-portal"
 rm -rf "$HOME/.config/nvim"
@@ -18,7 +19,8 @@ cp "$HOME/dotfiles/niri-wm/systemd/user/swayidle.service" "$HOME/.config/systemd
 
 # Symlink config directories
 ln -s "$HOME/dotfiles/niri-wm/niri" "$HOME/.config/niri"
-ln -s "$HOME/dotfiles/waybar" "$HOME/.config/waybar"
+ln -s "$HOME/dotfiles/alacritty" "$HOME/.config/alacritty"
+ln -s "$HOME/dotfiles/niri-wm/waybar" "$HOME/.config/waybar"
 ln -s "$HOME/dotfiles/niri-wm/xdg-desktop-portal" "$HOME/.config/xdg-desktop-portal"
 ln -s "$HOME/dotfiles/nvim" "$HOME/.config/nvim"
 
