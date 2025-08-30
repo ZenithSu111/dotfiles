@@ -7,6 +7,8 @@ rm -rf "$HOME/.config/alacritty"
 rm -rf "$HOME/.config/waybar"
 rm -rf "$HOME/.config/xdg-desktop-portal"
 rm -rf "$HOME/.config/nvim"
+rm -rf "$HOME/.config/starship.toml"
+rm -rf "$HOME/.bashrc"
 
 # Recreate systemd user folder if it doesn't exist
 mkdir -p "$HOME/.config/systemd/user"
@@ -23,6 +25,8 @@ ln -s "$HOME/dotfiles/alacritty" "$HOME/.config/alacritty"
 ln -s "$HOME/dotfiles/niri-wm/waybar" "$HOME/.config/waybar"
 ln -s "$HOME/dotfiles/niri-wm/xdg-desktop-portal" "$HOME/.config/xdg-desktop-portal"
 ln -s "$HOME/dotfiles/nvim" "$HOME/.config/nvim"
+ln -s "$HOME/dotfiles/starship.toml" "$HOME/.config/"
+ln -s "$HOME/dotfiles/.bashrc" "$HOME/"
 
 
 # Reload systemd so it sees the new units
